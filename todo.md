@@ -1,0 +1,4 @@
+- [ ] deploy android
+- [ ] navigate to new 'TrackHabit' page
+- [ ] add button to track habit
+  - [ ] add debounce mechanism
