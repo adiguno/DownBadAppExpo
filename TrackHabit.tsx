@@ -27,13 +27,16 @@ export function TrackHabit({ navigation }) {
   );
 
   function downBad() {
-    let currentTime = Date.now();
+    const currentTime = Date.now();
+    const date = new Date(currentTime);
+    console.log(`current time ${date.toLocaleDateString()}`);
+    console.log(`current time ${date.getHours()}`);
+    console.log(`current time ${date.getMinutes()}`);
+
+    console.log(`+1 down bad`);
     updateCount(dayCount + 1);
-    console.log(` -1 down bad`);
-    console.log(`current time ${JSON.stringify(currentTime)}`);
   }
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
