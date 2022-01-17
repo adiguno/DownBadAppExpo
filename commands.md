@@ -1,3 +1,4 @@
-- `yarn add @react-navigation/native`
-- `expo install react-native-screens react-native-safe-area-context`
-- To use the native stack navigator, we need to install @react-navigation/native-stack : `yarn add @react-navigation/native-stack`
+- to add react and use react navigation:
+  - `yarn add @react-navigation/native`
+  - `expo install react-native-screens react-native-safe-area-context`
+  - To use the native stack navigator, we need to install @react-navigation/native-stack : `yarn add @react-navigation/native-stack`

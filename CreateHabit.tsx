@@ -6,9 +6,10 @@ import {
   View,
   StyleSheet,
   TouchableOpacity,
+  Button,
 } from "react-native";
 
-export function CreateHabit() {
+export function CreateHabit({ navigation }) {
   const [text, onChangeText] = React.useState(
     "Tell me why ain't nothin' but a heartache"
   );
@@ -48,6 +49,7 @@ export function CreateHabit() {
 
   function goToNext() {
     console.log(`goToNext text: ${text}`);
+    navigation.navigate("Tracking");
   }
   function clearText() {
     onChangeText("");
