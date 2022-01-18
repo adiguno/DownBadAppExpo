@@ -3,7 +3,7 @@
   - [ ] past review
 - [x] navigate to new 'TrackHabit' page
 - [x] add button to track habit
-  - [ ] add debounce mechanism
+  - [ ] add ~~debounce~~ throttle mechanism
 - [ ] add list of timestamps for today
 - [ ] i didn't mean it
   - [ ] remove bad habit entry
