@@ -1,9 +1,11 @@
-- [ ] deploy android
+- [x] deploy android
   - [x] publishing
-  - [ ] past review
+  - [x] past review
 - [x] navigate to new 'TrackHabit' page
 - [x] add button to track habit
   - [ ] add ~~debounce~~ throttle mechanism
 - [ ] add list of timestamps for today
 - [ ] i didn't mean it
   - [ ] remove bad habit entry
+  - [ ] edit bad habit entry
+- [ ] add database
